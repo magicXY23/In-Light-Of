@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CollectEmber : MonoBehaviour
+public class Ember : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
