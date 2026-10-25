@@ -1,6 +1,10 @@
 using Unity.Collections;
+using Unity.VisualScripting.Antlr3.Runtime;
+using Unity.VisualScripting.FullSerializer;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,8 +19,26 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = 0;
+        movement.y = 0;
+
+        if(Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed)
+        {
+            movement.y += 1;
+        }
+        if(Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
+        {
+            movement.x -= 1;
+        }
+        if(Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed)
+        {
+            movement.y -= 1;
+        }
+        if(Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed)
+        {
+            movement.x += 1;
+        }
+
         movement = movement.normalized;
     }
 
