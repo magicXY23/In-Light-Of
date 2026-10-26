@@ -15,7 +15,7 @@ public class EmberSpawns : MonoBehaviour
         float halfHeight = Camera.main.orthographicSize;
         float halfWidth = halfHeight*Camera.main.aspect;
 
-        Vector2 randomPos = new Vector2(Random.Range(halfWidth*-1f + 2f, halfWidth - 2f), Random.Range(halfHeight*-1f + 2f, halfHeight - 2f));
+        Vector3 randomPos = new Vector3(Random.Range(halfWidth*-1f + 2f, halfWidth - 2f), Random.Range(halfHeight*-1f + 2f, halfHeight - 2f), -1);
         Instantiate(emberPrefab, randomPos, Quaternion.identity);
     }    
 }
