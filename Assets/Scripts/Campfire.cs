@@ -1,26 +1,29 @@
+using System.Data.Common;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
 public class Campfire : MonoBehaviour
 {
-    public float maxFireHealth = 300f;
-    public float fireHealth = 50f;
+    public float maxFireHealth = 200f;
+    public float fireHealth = 100f;
     public float burnRate = 5f;
     public Light2D fireLight;
-    public float maxFireLightRadius = 12f;
+    public float maxFireLightRadius = 10f;
 
     void Update()
     {
-        if(fireHealth > 0)
+        if (fireHealth > 20f)
         {
             fireHealth -= burnRate*Time.deltaTime;
+            fireLight.pointLightOuterRadius = maxFireLightRadius*(fireHealth/maxFireHealth);
+            fireLight.intensity = 5f*fireHealth/maxFireHealth;
         }
         else
         {
-            // game over
+            fireLight.pointLightOuterRadius = 0;
+            fireLight.intensity = 0;
         }
-        fireLight.pointLightOuterRadius = maxFireLightRadius*(fireHealth/maxFireHealth);
-        fireLight.intensity = 5f*fireHealth/maxFireHealth;
+        
     }
     
     public void AddFuel(float amount)

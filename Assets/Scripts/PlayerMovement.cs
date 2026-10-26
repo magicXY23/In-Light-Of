@@ -17,19 +17,19 @@ public class PlayerMovement : MonoBehaviour
         movement.x = 0;
         movement.y = 0;
 
-        if(Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed)
+        if (Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed)
         {
             movement.y += 1;
         }
-        if(Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
+        if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
         {
             movement.x -= 1;
         }
-        if(Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed)
+        if (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed)
         {
             movement.y -= 1;
         }
-        if(Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed)
+        if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed)
         {
             movement.x += 1;
         }
