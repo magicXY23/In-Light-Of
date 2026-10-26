@@ -25,6 +25,7 @@ public class Ember : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
