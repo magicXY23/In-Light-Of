@@ -3,19 +3,19 @@ using UnityEngine;
 public class EmberSpawns : MonoBehaviour
 {
     public GameObject emberPrefab;
-    public float spawnInterval = 3f;
+    public float spawnInterval = 2f;
 
     void Start()
     {
-        InvokeRepeating("SpawnEmber", 1f, spawnInterval);
+        InvokeRepeating("SpawnEmber", 0f, spawnInterval);
     }
 
     void SpawnEmber()
     {
-        float camHeight = Camera.main.orthographicSize*2f;
-        float camWidth = camHeight*Camera.main.aspect;
+        float halfHeight = Camera.main.orthographicSize;
+        float halfWidth = halfHeight*Camera.main.aspect;
 
-        Vector2 randomPos = new Vector2(Random.Range(camWidth*-1f + 2f, camWidth - 2f), Random.Range(camHeight*-1f + 2f, camHeight - 2f));
+        Vector2 randomPos = new Vector2(Random.Range(halfWidth*-1f + 2f, halfWidth - 2f), Random.Range(halfHeight*-1f + 2f, halfHeight - 2f));
         Instantiate(emberPrefab, randomPos, Quaternion.identity);
     }    
 }

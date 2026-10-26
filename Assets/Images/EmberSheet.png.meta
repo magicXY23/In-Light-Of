@@ -1,40 +1,31 @@
 fileFormatVersion: 2
-guid: a5a9a3df8c752d4429799e8cccf13c64
+guid: c255bc6e832eb08429b4be091254e8ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1225931507584225537
-    second: campfire-sheet_0
+      213: 2504461236383077340
+    second: Group 4 - 3_0
   - first:
-      213: 505913521328780709
-    second: campfire-sheet_1
+      213: 3641135350753050596
+    second: Group 4 - 3_1
   - first:
-      213: -3166296679089650414
-    second: campfire-sheet_2
+      213: 4597536347032261386
+    second: Group 4 - 3_2
   - first:
-      213: 1224196845482634625
-    second: campfire-sheet_3
+      213: 5920478253051422700
+    second: Group 4 - 3_3
   - first:
-      213: -1577836884227133760
-    second: campfire-sheet_4
+      213: 749284956731173423
+    second: Group 4 - 3_4
   - first:
-      213: -4575933595319321071
-    second: campfire-sheet_5
+      213: -543809060326538353
+    second: Group 4 - 3_5
   - first:
-      213: -7158300296295137599
-    second: campfire-sheet_6
+      213: 5023556266183845485
+    second: Group 4 - 3_6
   - first:
-      213: -2224697877625995783
-    second: campfire-sheet_7
-  - first:
-      213: 5495887516943981662
-    second: campfire-sheet_8
-  - first:
-      213: -855873101846590874
-    second: campfire-sheet_9
-  - first:
-      213: -7547252342158299334
-    second: campfire-sheet_10
+      213: 1199389166687958355
+    second: Group 4 - 3_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,101 +134,145 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: campfire-sheet_0
+      name: EmberSheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 101548cf532630110800000000000000
-      internalID: 1225931507584225537
+      spriteID: 8d3315fbf0433bc42b3be61508917452
+      internalID: -1543989147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: campfire-sheet_1
+      name: EmberSheet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce315c980f7aea48b0ec8d2fb00e930
+      internalID: -2037239467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmberSheet_2
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 32
-        height: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a57eddcaad550700800000000000000
-      internalID: 505913521328780709
+      spriteID: 6fd141f63a80edf4bab1947c00c3b26e
+      internalID: 55782122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: campfire-sheet_2
+      name: EmberSheet_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90397f426006824d81a2acd33ffb015
+      internalID: 1950360345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmberSheet_4
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 215cc5532fd0f04d0800000000000000
-      internalID: -3166296679089650414
+      spriteID: f4883c0358655d240a4d61916898da7b
+      internalID: 1517526928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: campfire-sheet_3
+      name: EmberSheet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a4256001a6a6f4d84c3c84321ab1d7
+      internalID: -1912271965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmberSheet_6
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 18d652e7b883df010800000000000000
-      internalID: 1224196845482634625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: campfire-sheet_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c440d041e073b14ba9bc9ede99c012a
-      internalID: -1577836884227133760
+      spriteID: b2d5dfe0158dd5e499a19c8ad93f4b75
+      internalID: 458650990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: campfire-sheet_5
+      name: EmberSheet_7
       rect:
         serializedVersion: 2
-        x: 160
+        x: 112
         y: 0
-        width: 32
-        height: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,52 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c258a501870f824c9337904fa3fcdc7
-      internalID: -4575933595319321071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: campfire-sheet_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbf974946f2ee754ca54bef833e02638
-      internalID: -7158300296295137599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: campfire-sheet_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 917a35b43b94801408604550a6e2670f
-      internalID: -2224697877625995783
+      spriteID: 0c817b43d3350f2408abb0c9c56c9e97
+      internalID: 630791897
       vertices: []
       indices: 
       edges: []
@@ -322,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1016a69bfec622342a993f278995b573
+    spriteID: dc34f9741c4fe6d4792371e64ee9e8ee
     internalID: 0
     vertices: []
     indices: 
@@ -332,16 +323,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      campfire-sheet_0: 1225931507584225537
-      campfire-sheet_1: 505913521328780709
-      campfire-sheet_2: -3166296679089650414
-      campfire-sheet_3: 1224196845482634625
-      campfire-sheet_4: -1577836884227133760
-      campfire-sheet_5: -4575933595319321071
-      campfire-sheet_6: -7158300296295137599
-      campfire-sheet_7: -2224697877625995783
+      EmberSheet_0: -1543989147
+      EmberSheet_1: -2037239467
+      EmberSheet_2: 55782122
+      EmberSheet_3: 1950360345
+      EmberSheet_4: 1517526928
+      EmberSheet_5: -1912271965
+      EmberSheet_6: 458650990
+      EmberSheet_7: 630791897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

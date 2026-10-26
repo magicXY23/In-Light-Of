@@ -23,7 +23,6 @@ public class Campfire : MonoBehaviour
             fireLight.pointLightOuterRadius = 0;
             fireLight.intensity = 0;
         }
-        
     }
     
     public void AddFuel(float amount)
