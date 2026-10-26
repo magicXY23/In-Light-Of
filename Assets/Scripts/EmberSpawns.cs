@@ -3,7 +3,7 @@ using UnityEngine;
 public class EmberSpawns : MonoBehaviour
 {
     public GameObject emberPrefab;
-    public float spawnInterval = 2f;
+    public float spawnInterval = 3f;
 
     void Start()
     {
