@@ -4,8 +4,6 @@ public class EmberSpawns : MonoBehaviour
 {
     public GameObject emberPrefab;
     public float spawnInterval = 2f;
-    public float minX = -25f, maxX = 25f;
-    public float minY = -25f, maxY = 25f;
 
     void Start()
     {
@@ -14,7 +12,10 @@ public class EmberSpawns : MonoBehaviour
 
     void SpawnEmber()
     {
-        Vector2 randomPos = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
+        float camHeight = Camera.main.orthographicSize*2f;
+        float camWidth = camHeight*Camera.main.aspect;
+
+        Vector2 randomPos = new Vector2(Random.Range(camWidth*-1, camWidth), Random.Range(camHeight*-1, camHeight));
         Instantiate(emberPrefab, randomPos, Quaternion.identity);
     }    
 }

@@ -8,12 +8,12 @@ public class BackgroundAdjust : MonoBehaviour
         Vector3 bgScale = transform.localScale;
         bgScale = Vector3.one;
 
-        float cameraHeight = Camera.main.orthographicSize*2f;
-        float cameraWidth = cameraHeight*Camera.main.aspect;
+        float camHeight = Camera.main.orthographicSize*2f;
+        float camWidth = camHeight*Camera.main.aspect;
 
         Vector3 bgSize = sr.sprite.bounds.size;
-        bgScale.x = cameraWidth/bgSize.x;
-        bgScale.y = cameraHeight/bgSize.y;
+        bgScale.x = camWidth/bgSize.x;
+        bgScale.y = camHeight/bgSize.y;
         transform.localScale = bgScale;
     }
 }
